@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+auto_pwa: false
+micros:
+  - name: space-next
+    src: ./
+    engine: next
+    primary: true
+    dev: pnpm dev
